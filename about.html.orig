@@ -35,11 +35,12 @@
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
     <!-- navigation section  -->
   </header>
+
   <!-- banner text -->
   <div class="container">
     <div class="col-md-10 col-md-offset-1">
       <div class="innerbanner-text text-center">
-        <p>If you a)have made a robot alone, and b) you can REALLY put up with attitude, then contact me below if you're interested in helping!</p>
+        <p>About me</p>
         <!-- banner text -->
       </div>
     </div>
@@ -49,25 +50,36 @@
 <!-- description text section -->
 <section id="inner-description" class="section inner-description">
   <div class="container">
-    <div class="col-md-10 col-md-offset-1 text-center">
-      <p>With your help, I will make the best robot in the world! But remember, you MUST have made a robot alone (without help) once.But if you have, contact me and we'll have so much fun!</p>
-      <!--contact form start-->
-      <div class="col-md-6 col-md-offset-3 conForm">
-        <div id="message"></div>
-        <form method="post" action="php/contact.php" name="cform" id="cform">
-          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
-          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." >
-          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Project Details..."></textarea>
-          <input type="submit" id="submit" name="send" class="submitBnt" value="Send">
-          <div id="simple-msg"></div>
-        </form>
-      </div>
-      <!--contact form end-->
+<<<<<<< HEAD
+    <div class="col-md-10 col-md-offset-1 text-center"> <img src="images/cupcakes! cupcakes!.jpg" alt="Mafolio">
+      <h1>Johnathan Doe</h1>
+      <p>UX Designer/ Developer</p>
+=======
+    <div class="col-md-10 col-md-offset-1 text-center"> <img src="images/designer-pic.jpg" alt="Mafolio">
+      <h1>#Ilikecupcakes:)</h1>
+      <p>Cupcake baker and robot maker</p>
+>>>>>>> 91622d94851d0017b6e148935e64dc8ef440c1de
     </div>
+    <div class="col-md-10 col-md-offset-1 space">
+      <p>This is the first paragraph that shows how I came to like cupcakes so much. So it started with my grandparent's cupcakes. They were terrible. Then once I tasted good cupcakes and they were so good i came to love cupcakes so much that once I tried to steal some. By the way. all that is false. I might give some real stuff, like I had eggs and black beans for breakfast today my dad makes good egg scrambly things with chopped flour tortillas but today he used corn tortillas and they were bad.</p>
+      <p>This is the second paragraph saying that my mom actually doesn't make robots but I've read a book with a robot in it who's engine gets replaced the book is called Ungifted by Jordan Korman I think. I'm not good  at identifying authors. Or spelling their names.</p>
+      <p>This is the last paragraph saying my really boring attitude. If you can't deal with that don't go to If you've made a robot alone even if you have made a robot alone because you will go crazy working with me.</p>
   </div>
 </section>
 <!-- description text section -->
+
+<!-- hire me section -->
+<section id="hireme" class="section hireme">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h3>Need something specific?</h3>
+      <p>We are currently crafting new products but would love to hear from you.</p>
+      <a href="https://github.com/kamalcha/ActiveBox/archive/master.zip" class="btn btn-large">Hire me</a> </div>
+  </div>
+</section>
+<!-- hire me section -->
 <!-- footer -->
+
 <footer class="section footer">
   <div class="footer-bottom">
     <div class="container">
@@ -97,7 +109,6 @@
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/retina.min.js"></script>
 <script src="js/modernizr.js"></script>
-<script src="js/jquery.contact.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
